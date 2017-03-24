@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>transform测试</title>
+</head>
+	<style type="text/css">
+		.a1 {
+			width: 200px;
+			height: 200px;
+			background-color: pink;
+			transition: 2s;
+			text-align: center;
+			line-height: 200px;
+			font-size: 50px;
+			color: #fff;
+			/* 原点 */
+			/* transform-origin: top left; */
+			margin: 0 auto;
+		}
+
+		.a1:hover {
+
+			/* 旋转 */ 
+			transform: rotate(60deg) translate(100px);
+			
+			/* 移动 */
+			/* transform: translate(100px,100px); */
+			
+			/* 缩放 */
+			/* transform: scale(-1); */
+
+		}
+
+
+	</style>
+<body>
+	<div class="a1">
+		123
+	</div>
+</body>
+</html>

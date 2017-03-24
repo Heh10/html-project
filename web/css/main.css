@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    margin:0 auto;
+    width: 1000px;
+    overflow: hidden;
+}
+
+.head {
+    height:70px;
+    width: 1000px;
+    line-height: 80px;
+    float: left;
+    border-bottom: 1px solid #0aa1ed;
+    background-color: #f5f5f5;
+    float: left;
+
+}
+
+.content {
+    position: relative;
+
+    width:1000px;
+    height:410.69px;
+    float: left;
+}
+
+.img1 {
+    margin-left: 100px;
+    margin-top: 10px;
+    display: block;
+    float: left;
+}
+.head_text {
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    margin-left: 15px;
+    color: #4f4d4e;
+    font-size: 24px;
+    font-family: "΢���ź�";
+}
+
+.img_bg {
+    position: absolute;
+    width: 1000px;
+    height:410.69px;
+}
+
+.login_div {
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.footer1 {
+    float: left;
+    height: 150px;
+    width: 1000px;
+    background-color: #f5f5f5;
+
+}
+
+.footer1_div {
+    height: 150px;
+    width: 250px;
+    float: left;
+ }
+
+.img_icon {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.footer_text {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.login_head {
+    height: 40px;
+    color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.login_text1 {
+    line-height: 40px;
+    float: left;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.login_text2 {
+    line-height: 40px;
+    float: right;
+    margin-right: 20px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.login_user {
+    float: left;
+    height: 50px;
+    position: relative;
+}
+
+.login_password {
+    float: left;
+    height: 50px;
+    position: relative;
+}
+
+.username {
+    padding-left: 10px;
+    float: left;
+    height: 35px;
+    width: 240px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+
+}
+
+.password {
+    padding-left: 10px;
+    float: left;
+    height: 35px;
+    width: 240px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+}
+
+.login_bottom {
+    color: #fff;
+    height: 40px;
+    width: 300px;
+    float: left;
+
+}
+
+.login_text3 {
+    line-height: 40px;
+    float: left;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.login_text4 {
+    line-height: 40px;
+    float: right;
+    margin-right: 30px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.denglu {
+    height: 40px;
+    width: 250px;
+    border: none;
+    background-color: #0aa1ed;
+    margin-left: 20px;
+    color: #fff;
+}
+.checkbox {
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.user_image {
+    left: 20px;
+    top: 15px;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+}
+.password_image {
+    left: 20px;
+    top: 15px;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+}
+
+.footer2 {
+    float: left;
+    width: 1000px;
+    height: 200px;
+    background-color: #fff;
+}
+
+.footer2_1 {
+    width: 300px;
+    float: left;
+    height: 150px;
+    margin-top: 20px;
+ }
+.footer2_2 {
+    margin-top: 30px;
+    width: 300px;
+    float: left;
+    height: 150px;
+}
+.footer2_3 {
+    height: 150px;
+    width: 300px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.footer2_1_img {
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.footer2_2_text {
+    color: #4f4d4e;
+    width: 100px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer2_2_text2 {
+    font-weight: bold;
+}
+
+.footer2_3_1 {
+    float: left;
+    height: 150px;
+    width: 150px;
+}
+
+.footer2_3_2 {
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+
+.footer2_3_1>img,span {
+    display: block;
+    float: left;
+    margin-top: 8px;
+    font-size: 12px;
+}
+

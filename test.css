@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.radial_gradient {
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
+	border-radius: 100%;
+	background-color: pink;
+	background: radial-gradient(red, pink);
+}
+
+.linear_gradient {
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
+	border-radius: 100%;
+	background: linear-gradient(red, pink);
+
+}
+
+.box_shadow {
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
+	border-radius: 100%;
+	background-color: pink;
+	box-shadow: 5px 5px 5px darkcyan;
+}

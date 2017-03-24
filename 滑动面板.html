@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <title>滑动面板</title>
+
+  <link rel="stylesheet" href=""/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      background-color: #F5F5F5;
+    }
+    .area {
+      width: 100%;
+      position: relative;
+    }
+    a,a:visited {
+    text-decoration: none;
+    }
+    /*text*/
+    h2 {
+      padding: 10px;
+      background-color: white;
+    }
+    .text a {
+      display: block;
+      overflow: hidden;
+      float: right;
+    }
+    .text span {
+      width: 20px;
+      display: block;
+      border-bottom: 3px solid black;
+      margin-bottom: 3px;
+    }
+    .text > div {
+      padding: 20px;
+      line-height: 1.5;
+    }
+
+    /* tab */
+    .tab-part {
+      position: fixed;
+      top: 0;
+      width: 80%;
+      height: 100%;
+      background-color: #FFD532;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .tab-part a {
+      display: block;
+      text-align: center;
+    }
+    .tab-part > div {
+      margin-top: 10px;
+      line-height: 3;
+      text-align: center;
+    }
+    #tab:target {
+      right: 0;
+      transition: right 1s;
+    }
+    #tab:not(:target){
+      right: -100%;
+      transition: right 1s;
+    }
+  </style>
+</head>
+<body>
+<div class="area">
+  <div class="text">
+    <h2>
+      这是滑动的面板
+      <a href="#tab">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </h2>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ex ipsa quidem ut. Aliquam commodi delectus
+      dolore, doloremque eligendi et, eum eveniet impedit ipsa itaque obcaecati porro qui ullam. Consequatur! Lorem
+      ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, animi asperiores blanditiis cupiditate deserunt
+      dicta error esse impedit incidunt itaque iure magnam, pariatur quae quaerat ratione sapiente veritatis voluptatem
+      voluptatibus!
+    </div>
+  </div>
+  <div class="tab-part" id="tab">
+    <a href="#">X</a>
+    <div>
+      <p>menu1</p>
+      <p>menu2</p>
+      <p>menu3</p>
+      <p>menu4</p>
+      <p>menu5</p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript"></script>
+</body>
+</html>
