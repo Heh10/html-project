@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <title>animation</title>
+  <link rel="stylesheet" href=""/>
+  <style>
+    @keyframes move {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-500px);
+      }
+    }
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .wai {
+      width: 500px;
+      /*height: 200px;*/
+      border: 10px solid pink;
+      background-color: yellowgreen;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+    ul {
+      width: 1000px;
+      animation: move 2s linear infinite;
+    }
+    li {
+      list-style: none;
+      width: 100px;
+      height: 100px;
+      border: 1px solid yellow;
+      font-size: 30px;
+      text-align: center;
+      line-height: 100px;
+      color: white;
+      box-sizing: border-box;
+      /*以下就不一样了*/
+      float: left;
+    }
+    ul:hover {
+    	animation-play-state : paused;
+    }
+    li:nth-child(1) {
+      background-color: red;
+    }
+    li:nth-child(2) {
+      background-color: blue;
+    }
+    li:nth-child(3) {
+      background-color: green;
+    }
+    li:nth-child(4) {
+      background-color: purple;
+    }
+    li:nth-child(5) {
+      background-color: dodgerblue;
+    }
+    li:nth-child(6) {
+      background-color: red;
+    }
+    li:nth-child(7) {
+      background-color: blue;
+    }
+    li:nth-child(8) {
+      background-color: green;
+    }
+    li:nth-child(9) {
+      background-color: purple;
+    }
+    li:nth-child(10) {
+      background-color: dodgerblue;
+    }
+  </style>
+</head>
+<body>
+  <div class="wai">
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+    </ul>
+  </div>
+<script type="text/javascript"></script>
+</body>
+</html>
